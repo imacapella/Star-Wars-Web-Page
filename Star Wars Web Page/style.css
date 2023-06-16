@@ -1,0 +1,501 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+.imgs
+{
+    background-image: url("./images/backgroundEdited.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: calc(50% - 0px) 80%;
+    height: 98.8vh;
+}
+
+.Navbar
+{
+    display: flex;
+    padding: 0% 4%;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #edc531;
+}
+
+.Navbar a img
+{
+    background-size: 100%;
+    width: 9rem;
+    height: 6rem;
+}
+
+.nav-links
+{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li
+{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a
+{
+    color: #ffff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.nav-links ul li::after
+{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: #D3B446;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after
+{
+    width: 100%;
+}
+
+footer
+{
+    color: black;
+    font-size: 0.70rem;
+    text-align: center;
+    background-color: #f8d700;
+}
+
+.text-box 
+{
+    margin-top: 1.5rem;
+    color: #ffffff;
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.text-box h1
+{
+    margin-bottom: 1rem;
+    
+    font-size: 3rem;
+    font-weight: 1200;
+
+}
+
+.text-box p
+{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+ a button
+{
+    padding: 1rem 2rem;
+    background-image: linear-gradient(to right, #ffe169, #edc531);
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    border-radius: 50px;
+    border: solid 1px #9e7e0a;
+}
+
+ a button:hover
+{
+    background-image: linear-gradient(to right, #edc531, #dbb42c);
+    box-shadow: 0 4px 15px 0 rgba(199, 209, 17, 0.75);
+    color: #fff;
+    border: black;
+    cursor: pointer;
+    transition: 0.5s;
+    transform: translateY(6px);
+
+}
+
+.Container
+{
+    
+    background-image: url("./images/starsEdit.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: calc(50% - 0px) 80%;
+    height: 240vh;
+}
+
+.Container-wts
+{
+    background-image: url("./images/starsEdit.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: calc(50% - 0px) 80%;
+    height: 98.56vh;
+}
+
+.Container-sith
+{
+    
+    background-image: url("./images/starsEdit.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: calc(50% - 0px) 80%;
+    height: 134vh;
+}
+
+.Container-jediK
+{
+    background-image: url("./images/starsEdit.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: calc(50% - 0px) 80%;
+    height: 145vh;
+}
+
+.Container-jediC
+{
+    background-image: url("./images/starsEdit.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: calc(50% - 0px) 80%;
+    height: 166vh;
+}
+
+.Container-Contact
+{
+    background-image: url("./images/starsEdit.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: calc(50% - 0px) 80%;
+    height: 98.8vh;
+}
+
+.Container-stories
+{
+    background-image: url("./images/starsEdit.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: calc(50% - 0px) 80%;
+    height: 270vh;
+}
+
+.Container-anno
+{
+    background-image: url("./images/starsEdit.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: calc(50% - 0px) 80%;
+    height: 130vh;
+}
+
+.Container-Story
+{
+    background-image: url("./images/starsEdit.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: calc(50% - 0px) 80%;
+    height: 98.7vh;
+}
+
+.List-Title
+{
+    font-size: 3rem;
+    margin-left: 39%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.List
+{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    background-image: url("./images/starsEdit.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: calc(50% - 0px) 80%;
+    
+}
+
+.List .card
+{
+    width: 100%;
+    position: relative;
+}
+
+.ListItem ul li h1
+{
+    font-size: 1.4rem;
+    margin-left: 4rem;
+    text-align: center;
+    color: #f8d700;
+}
+
+.ListItem ul li p
+{
+    font-size: 1.2rem;
+    padding: 0rem 9rem;
+}
+
+.ListItem img
+{
+   
+    border: solid #f8d700 4px;
+    width: 50%;
+    height: auto;
+    margin-left: 11rem;
+}
+
+.ListItem img:hover
+{
+    -webkit-box-shadow: -6px -6px 64px -9px rgba(224,224,224,1);
+    -moz-box-shadow: -6px -6px 64px -9px rgba(224,224,224,1);
+    box-shadow: -6px -6px 64px -9px rgba(224,224,224,1);
+    
+}
+
+.ListItem ul li 
+{
+    list-style: none;
+}
+
+.row
+{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 5rem;
+}
+
+
+/*   Announcements */
+
+.AList
+{
+    color: #fff;
+}
+
+.AList-Title
+{
+    font-size: 3rem;
+    color: red;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 2.4rem;
+}
+
+.AListItem a
+{
+    text-decoration: none;
+    color: peru;
+}
+
+.AListItem li
+{
+    padding: 1rem 2rem;
+}
+
+.AListItem p 
+{
+    margin-right: 45rem;
+}
+
+.AListItem h1
+{
+    margin-right: 45rem;
+    margin-bottom: 1.2rem;
+}
+
+/* Contact */
+
+
+.Contact
+{
+    color: #fff;
+    padding: 1rem;
+    height: 50vh;
+    margin-bottom: 1.5rem;
+}
+
+.Contact h4
+{
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.Contact .ContactForm
+{
+    font-size: 2rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.Contact .ContactForm ul
+{
+    list-style-type: none;
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+}
+
+.Contact .ContactForm ul li a
+{
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.Contact .ContactForm ul li a:hover
+{
+    opacity: 0.7;
+}
+
+.Contact .ContactForm .FormGroup 
+{
+    padding:  0.25rem 0rem;
+}
+
+.Contact Button
+{
+    padding: 1rem 2rem;
+}
+
+.FormGroup label
+{
+    display: block;
+}
+
+.FormControl
+{
+    width: 100%;
+    padding: 0.4rem;
+    resize: none;
+}
+
+/* Story */
+
+.ContainerStory
+{
+    width: 100%;
+    height: 83.6vh;
+    text-align: center;
+    position: relative;
+}
+
+.ContainerStory a
+{
+    text-decoration: none;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    border: 4px solid rgb(196, 179, 26);
+    border-radius: 80px;
+    padding: 20px;
+    color: #D3B446;
+}
+
+.Box1
+{
+    position: absolute;
+    left: 42.2%;
+    top: 10%;
+}
+
+.Box2
+{
+    position: absolute;
+    left: 42.2%;
+    top: 40%;
+}
+
+.Box3
+{
+    position: absolute;
+    left: 42.2%;
+    top: 70%;
+}
+
+/*dropdown*/
+
+.dropdown 
+{
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content 
+{
+    display: none;
+    position: absolute;
+    background-color: rgb(118, 121, 128);
+    filter: opacity(0.7);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-align: center;
+}
+  
+.dropdown-content a 
+{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {background-color: #f1f1f1}
+  
+.dropdown:hover .dropdown-content 
+{
+    display: block;
+}
+  
+.dropdown:hover .dropbtn 
+{
+    background-color: #3e8e41;
+}
+
+/* Episode 1 */
+
+.Title 
+{
+    padding: 5px;
+    color: #fff;
+    background-color: #dbb42c;
+    width: 20%;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.Content .Text
+{
+    font-size: 1.7rem;
+    color: white;
+    padding: 1rem 2.5rem;
+}
+
+.Content .Imgsx
+{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3.5rem;
+}
+
+.Content img
+{
+   width: 20%;
+   height: auto;
+   padding: 2rem;
+}
